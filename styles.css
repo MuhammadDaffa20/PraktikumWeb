@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .signup-btn {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-btn {
+    color: black;
+    border-color: black;
+}
+
+.signup-btn {
+    background-color: red;
+    color: white;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('Hero.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+}
